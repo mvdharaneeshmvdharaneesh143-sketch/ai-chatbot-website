@@ -1,46 +1,59 @@
 # 🤖 AI Chatbot Website
 
-A modern AI chatbot website built using HTML, CSS and JavaScript.
+A modern, interactive AI chatbot website built using HTML, CSS and JavaScript.
 
-## 📌 Project Overview
+## 📌 Project Information
 
-Project 03 is a beginner-to-intermediate web development project focused on building an interactive chatbot website.
+- **Project Name:** AI Chatbot Website
+- **Project Number:** 03
+- **Project Level:** Beginner to Intermediate
+- **Project Status:** Under Development
 
-## 🎯 Project Goals
+### 🎯 Main Goal
 
-- Build a modern chatbot interface.
-- Create interactive chat functionality.
-- Display user and chatbot messages.
-- Add typing indicators.
-- Implement a clear conversation feature.
-- Explore secure AI model integration.
+To develop a modern chatbot website with an interactive user interface, message handling, chatbot responses and a responsive design.
 
 ## 🛠️ Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- GitHub
-- Vercel
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Website styling and design |
+| JavaScript | Chatbot functionality |
+| GitHub | Source code management |
+| Vercel | Website deployment |
 
 ## ✨ Planned Features
 
-- Modern dark-themed interface
-- Responsive design
-- User message input
-- Chatbot demo responses
-- Typing indicator
-- Clear chat option
-- Secure AI integration exploration
+- Modern dark-themed chatbot interface.
+- User message input field.
+- Interactive send button.
+- Separate user and chatbot message bubbles.
+- Typing indicator.
+- Clear conversation option.
+- Responsive desktop and mobile design.
+- Sample chatbot responses.
+- Exploration of secure AI model integration.
 
 ## 📂 Project Structure
 
-- `index.html` — Website structure
-- `style.css` — Website design
-- `script.js` — Chatbot functionality
-- `README.md` — Project documentation
+```text
+ai-chatbot-website/
+│
+├── index.html
+│   └── Website structure
+│
+├── style.css
+│   └── Website design and styling
+│
+├── script.js
+│   └── Chatbot functionality
+│
+└── README.md
+    └── Project documentation
+```
 
-## 🚀 Development Plan
+## 🚀 Development Roadmap
 
 1. GitHub Setup
 2. Website Development
@@ -49,12 +62,20 @@ Project 03 is a beginner-to-intermediate web development project focused on buil
 5. Advanced Features
 6. Website Deployment
 
-## 📌 Project Status
+## 🔒 Security
 
-Currently under development.
+- Never expose private API keys in frontend JavaScript.
+- Use a secure backend for future AI API integration.
+- Protect private credentials and sensitive information.
 
----
+## 📈 Project Status
 
-**Project:** AI Chatbot Website  
-**Project Number:** 03  
-**Developer:** Dharaneesh MV
+**Currently under development.**
+
+The initial goal is to build a working frontend demonstration using sample chatbot responses. Real AI integration will be explored later through a secure backend.
+
+## 👨‍💻 Developer
+
+**Dharaneesh MV**
+
+Project 03 — AI Chatbot Website
