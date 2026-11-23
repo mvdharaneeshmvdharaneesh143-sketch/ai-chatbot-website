@@ -1,1 +1,44 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1>🤖 AI Chatbot</h1>
+        <button id="clear-chat">Clear Chat</button>
+    </header>
+
+    <main class="chat-container">
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="bot-message">
+                Hello! Welcome to AI Chatbot. How can I help you?
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typing-indicator">
+            AI is typing...
+        </div>
+
+        <form id="chat-form">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+            <button type="submit">Send</button>
+        </form>
+
+    </main>
+
+</body>
+</html>
+
